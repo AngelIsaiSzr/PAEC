@@ -34,7 +34,7 @@ Si deseas contribuir al proyecto PAEC, puedes:
 2. **Hacer Pull Request**: Si encuentras alguna mejora o corrección que quieras realizar, puedes enviar un pull request con tus cambios.
 
 ## Demo
-Puedes ver una demostración del proyecto PAEC en el Parque Xanath visitando este [enlace](https://www.ejemplo.com/paec-demo).
+Puedes ver una demostración del proyecto PAEC en el Parque Xanath visitando este [enlace](https://proyecto-paec.netlify.app).
 
 <p align="center">
   <img src="images/banner.png" alt="Parque Xanath">
