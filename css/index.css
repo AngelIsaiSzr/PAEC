@@ -647,11 +647,11 @@ body {
     transition: all .4s ease;
 }
 
-.cv {
+.map {
     padding-top: 20px;
 }
 
-.cv a button {
+.map a button {
     background: transparent;
     border: none;
     padding: 15px 30px;
@@ -666,16 +666,16 @@ body {
     transition: all .4s ease;
 }
 
-.cv a button:hover {
+.map a button:hover {
     opacity: 1;
     transform: scale(1.05);
 }
 
-#services {
+#benefits {
     position: relative;
 }
 
-.services-heading {
+.benefits-heading {
     height: auto;
     width: 100%;
     text-align: center;
@@ -702,7 +702,7 @@ body {
     color: whitesmoke;
 }
 
-.services-content {
+.benefits-content {
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -710,7 +710,7 @@ body {
     padding: 2.5%;
 }
 
-.service {
+.benefit {
     height: 465px;
     width: 28%;
     margin: 1.5%;
@@ -725,11 +725,11 @@ body {
     animation: opacity 1.4s ease;
 }
 
-.service-img {
+.benefit-img {
     text-align: center;
 }
 
-.service-img img {
+.benefit-img img {
     display: inline-block;
     z-index: 2;
     position: relative;
@@ -743,11 +743,11 @@ body {
     transition: all .8s ease;
 }
 
-.service:hover .service-img img {
+.benefit:hover .benefit-img img {
     box-shadow: 0px 0px 0px 400px #065a1f;
 }
 
-.service-description {
+.benefit-description {
     font-family: poppins;
     color: whitesmoke;
     position: relative;
@@ -755,26 +755,26 @@ body {
     z-index: 2;
 }
 
-.service-description h2 {
+.benefit-description h2 {
     padding: 3px 10px;
     margin: 5px;
     font-weight: 200;
     font-size: 25px;
 }
 
-.service-description p {
+.benefit-description p {
     padding: 10px;
     font-weight: 200;
     font-size: 16px;
     opacity: .8;
 }
 
-#skills {
+#achievements {
     width: 100%;
     height: auto;
 }
 
-.skills-header {
+.achievements-header {
     height: auto;
     width: 100%;
     text-align: center;
@@ -789,14 +789,14 @@ body {
     font-weight: 900;
 }
 
-.skills-content {
+.achievements-content {
     height: auto;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 80px;
 }
 
-.skill-html {
+.achievement-html {
     height: auto;
     width: 45%;
     padding: 0%;
@@ -807,7 +807,7 @@ body {
     padding: 1.5%;
 }
 
-.skill-text {
+.achievement-text {
     width: 80%;
     position: relative;
     height: 50px;
@@ -887,7 +887,7 @@ body {
     transition: all .4s ease;
 }
 
-.portfolio-header {
+.progress-header {
     height: auto;
     width: 100%;
     text-align: center;
@@ -915,7 +915,7 @@ body {
     font-weight: 400;
 }
 
-.portfolio {
+.progress {
     height: auto;
     width: 100%;
     display: flex;
@@ -928,7 +928,7 @@ body {
     padding-bottom: 40px;
 }
 
-.portfolio-text {
+.progress-text {
     width: 40%;
     padding-left: 1%;
     margin: 1%;
@@ -941,7 +941,7 @@ body {
     padding-bottom: 10px;
 }
 
-.portfolio-text h2 {
+.progress-text h2 {
     font-size: 35px;
     font-family: poppins;
     font-weight: 200;
@@ -950,7 +950,7 @@ body {
     transition: all .4s ease;
 }
 
-.portfolio-text p {
+.progress-text p {
     font-size: 16px;
     opacity: .8;
     font-family: poppins;
@@ -958,7 +958,7 @@ body {
     padding: 20px;
 }
 
-.portfolio-text button {
+.progress-text button {
     font-size: 16px;
     opacity: .8;
     font-family: poppins;
@@ -976,7 +976,7 @@ body {
     transition: all .4s ease;
 }
 
-.portfolio-text button::before {
+.progress-text button::before {
     content: "";
     position: absolute;
     width: 0%;
@@ -989,7 +989,7 @@ body {
     transition: all .7s ease;
 }
 
-.portfolio-text button:hover {
+.progress-text button:hover {
     opacity: 1;
     color: whitesmoke;
 }
@@ -999,7 +999,7 @@ button:hover .index {
     z-index: 4;
 }
 
-.portfolio-text button:hover::before {
+.progress-text button:hover::before {
     opacity: 1;
     width: 120%;
 }
@@ -1008,13 +1008,13 @@ button:hover .index {
     text-align: center;
 }
 
-.portfolio-image img {
+.progress-image img {
     height: 400px;
     width: 100%;
     position: relative;
 }
 
-.portfolio-image {
+.progress-image {
     height: 400px;
     width: 40%;
 }
@@ -1065,7 +1065,7 @@ button:hover .index {
     }
 }
 
-.portfolio-image img::before {
+.progress-image img::before {
     content: "";
     height: 100%;
     width: 100%;
@@ -1113,7 +1113,7 @@ button:hover .index {
     height: 500px;
 }
 
-#portfolio-content {
+#progress-content {
     width: 100%;
     display: flex;
     height: auto;
@@ -1122,7 +1122,7 @@ button:hover .index {
     overflow: hidden;
 }
 
-#portfolio {
+#progress {
     display: none;
     height: auto;
     overflow-x: hidden;
@@ -1748,7 +1748,7 @@ For devices with smaller width like mobile phone
         border-radius: 10%;
     }
 
-    .service {
+    .benefit {
         height: auto;
         padding-bottom: 8px;
         width: 90%;
@@ -1763,7 +1763,7 @@ For devices with smaller width like mobile phone
         overflow: hidden;
     }
 
-    .service-img img {
+    .benefit-img img {
         display: inline-block;
         z-index: 2;
         position: relative;
@@ -1774,7 +1774,7 @@ For devices with smaller width like mobile phone
         transition: all .8s ease;
     }
 
-    .skill {
+    .achievement {
         width: 80%;
     }
 
@@ -1782,14 +1782,14 @@ For devices with smaller width like mobile phone
         height: 30px;
     }
 
-    .skills-content {
+    .achievements-content {
         height: auto;
         width: 100%;
         margin-top: -10px;
         margin-bottom: 40px;
     }
 
-    #portfolio-content {
+    #progress-content {
         padding-bottom: 40px;
     }
 
@@ -1799,7 +1799,7 @@ For devices with smaller width like mobile phone
         height: 220px;
     }
 
-    .portfolio {
+    .progress {
         height: auto;
         width: 100%;
         display: flex;
@@ -1810,18 +1810,18 @@ For devices with smaller width like mobile phone
         padding-right: 2%;
         padding-top: 50px;
     }
-    .portfolio-image {
+    .progress-image {
         position: relative;
         height: 225px;
         width: 90%;
     }
 
-    .portfolio-image img {
+    .progress-image img {
         height: 250px;
         width: 100%;
     }
 
-    .portfolio-text {
+    .progress-text {
         width: 90%;
         padding-left: 0%;
         margin: 0%;
@@ -1833,14 +1833,14 @@ For devices with smaller width like mobile phone
         padding-bottom: 10px;
     }
 
-    .portfolio-text h2 {
+    .progress-text h2 {
         font-size: 22px;
         font-family: poppins;
         font-weight: 200;
         padding: 10px;
     }
 
-    .portfolio-text p {
+    .progress-text p {
         font-size: 15px;
         opacity: .8;
         font-family: poppins;
@@ -1852,7 +1852,7 @@ For devices with smaller width like mobile phone
         display: none;
     }
 
-    .service:hover .service-img img {
+    .benefit:hover .benefit-img img {
         box-shadow: 0px 0px 0px 0px #065a1f;
     }
 
@@ -2239,7 +2239,7 @@ for tabs and large phones
         border-radius: 40px;
     }
 
-    .cv a button {
+    .map a button {
         border: none;
         padding: 20px 30px;
         color: whitesmoke;
@@ -2252,7 +2252,7 @@ for tabs and large phones
         transition: all .4s ease;
     }
 
-    .service {
+    .benefit {
         height: auto;
         width: 45%;
         margin: 2%;
@@ -2268,20 +2268,20 @@ for tabs and large phones
         overflow: hidden;
     }
 
-    .service-description h2 {
+    .benefit-description h2 {
         padding: 10px;
         font-weight: 200;
         font-size: 24px;
     }
 
-    .service-description p {
+    .benefit-description p {
         padding: 10px;
         font-weight: 200;
         font-size: 14px;
         opacity: .8;
     }
 
-    .skill {
+    .achievement {
         width: 40%;
     }
 
@@ -2289,14 +2289,14 @@ for tabs and large phones
         height: 35px;
     }
 
-    .skills-content {
+    .achievements-content {
         height: auto;
         width: 100%;
         margin-top: 20px;
         margin-bottom: 15px;
     }
 
-    .portfolio {
+    .progress {
         height: auto;
         width: 100%;
         display: flex;
@@ -2309,7 +2309,7 @@ for tabs and large phones
         padding-bottom: 40px;
     }
 
-    .portfolio-text {
+    .progress-text {
         width: 70%;
         padding-left: 0%;
         margin: 0%;
@@ -2321,20 +2321,20 @@ for tabs and large phones
         padding-bottom: 15px;
     }
 
-    .portfolio-image {
+    .progress-image {
         position: relative;
         height: 380px;
         width: 70%;
     }
 
-    .portfolio-text h2 {
+    .progress-text h2 {
         font-size: 35px;
         font-family: poppins;
         font-weight: 200;
         padding: 15px;
     }
 
-    .portfolio-text p {
+    .progress-text p {
         font-size: 20px;
         opacity: .8;
         font-family: poppins;
@@ -2346,11 +2346,11 @@ for tabs and large phones
         display: none;
     }
 
-    .service:hover .service-img img {
+    .benefit:hover .benefit-img img {
         box-shadow: 0px 0px 0px 0px #065a1f;
     }
 
-    .portfolio-image img {
+    .progress-image img {
         height: 380px;
         width: 100%;
         position: relative;
@@ -2594,13 +2594,13 @@ for tabs and large phones
 
 @media all and (max-width: 9000px) and (min-width: 1441px) {
 
-    .portfolio-image img {
+    .progress-image img {
         height: 500px;
         width: 100%;
         position: relative;
     }
 
-    .portfolio-image {
+    .progress-image {
         height: 500px;
         width: 40%;
     }
@@ -2637,7 +2637,7 @@ for tabs and large phones
         font-weight: 200;
     }
 
-    .cv a button {
+    .map a button {
         background: transparent;
         border: none;
         padding: 25px 35px;
@@ -2653,7 +2653,7 @@ for tabs and large phones
 
     }
 
-    .service {
+    .benefit {
         height: auto;
         width: 28%;
         margin: 1.5%;
@@ -2669,11 +2669,11 @@ for tabs and large phones
         animation: opacity 1.4s ease;
     }
 
-    .service-img {
+    .benefit-img {
         text-align: center;
     }
 
-    .service-img img {
+    .benefit-img img {
         display: inline-block;
         z-index: 2;
         position: relative;
@@ -2684,14 +2684,14 @@ for tabs and large phones
         transition: all .8s ease;
     }
 
-    .service-description h2 {
+    .benefit-description h2 {
         padding: 10px;
         margin: 5px;
         font-weight: 200;
         font-size: 32px;
     }
 
-    .service-description p {
+    .benefit-description p {
         padding: 10px;
         font-weight: 200;
         font-size: 18px;

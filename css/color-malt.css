@@ -21,16 +21,16 @@
     color: #00909e;
 }
 
-.cv a button {
+.map a button {
     background: #00909e;
 }
 
-.service-img img {
+.benefit-img img {
     background: #00909e;
     box-shadow: 0px 0px 0px 0px #00909e;
 }
 
-.service:hover .service-img img {
+.benefit:hover .benefit-img img {
     box-shadow: 0px 0px 0px 400px #00909e;
 }
 
@@ -58,20 +58,20 @@
     background: #00909e;
 }
 
-.portfolio-text h2 {
+.progress-text h2 {
     color: #00909e;
 }
 
-.portfolio-text button {
+.progress-text button {
     color: #00909e;
     border: 1.5px solid #00909e;
 }
 
-.portfolio-text button::before {
+.progress-text button::before {
     background: #00909e;
 }
 
-.portfolio-image img::before {
+.progress-image img::before {
     background: #00909e;
 }
 
@@ -84,7 +84,7 @@ form button {
 }
 
 @media all and (max-width: 550px) and (min-width: 5px) {
-    .service:hover .service-img img {
+    .benefit:hover .benefit-img img {
         box-shadow: 0px 0px 0px 0px #c70039;
     }
 }
