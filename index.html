@@ -9,7 +9,7 @@
     <meta name="keywords" content="gallery, creative, personal, resume, resume theme,">
     <meta name="author" content="Angel Salazar">
 
-    <meta property="og:image" content="images/paec-logo.png">
+    <meta property="og:image" content="https://raw.githubusercontent.com/AngelIsaiSzr/PAEC/main/images/paec-logo.png">
     <!-- <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="600"> -->
     <meta property="og:title" content="Proyecto PAEC">
@@ -616,13 +616,13 @@
                     <div class="form-header">
                         Envianos un Mensaje
                     </div>
-                    <form id="myForm">
+                    <form id="myForm" name="contact" method="POST" netlify>
                         <div class="input-line">
-                            <input id="name" type="text" placeholder="Nombre" class="input-name" required>
-                            <input id="email" type="email" placeholder="Correo" class="input-name" required>
+                            <input name="Nombre" id="name" type="text" placeholder="Nombre" class="input-name" required>
+                            <input name="Correo" id="email" type="email" placeholder="Correo" class="input-name" required>
                         </div>
-                        <input type="text" id="subject" placeholder="Asunto" class="input-subject" required>
-                        <textarea id="body" class="input-textarea" placeholder="Mensaje" required></textarea>
+                        <input name="Asunto" type="text" id="subject" placeholder="Asunto" class="input-subject" required>
+                        <textarea name="Mensaje" id="body" class="input-textarea" placeholder="Mensaje" required></textarea>
                         <button type="submit" id="submit" value="send">Enviar</button>
                     </form>
                 </div>
