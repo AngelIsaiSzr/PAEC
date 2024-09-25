@@ -1622,7 +1622,9 @@ form button:hover {
 }
 
 /*
-For devices with smaller width like mobile phone
+
+Para teléfonos móviles
+
 */
 
 @media only screen and (max-width: 550px) {
@@ -2111,7 +2113,7 @@ For devices with smaller width like mobile phone
 
 /*
 
-for tabs and large phones
+Para tablets y teléfonos largos
 
 */
 
